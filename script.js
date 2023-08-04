@@ -20,7 +20,11 @@ function generatePassword(){
     passw.innerHTML = novaSenha
 }
 function copy(){
-    alert('senha copiada com sucesso!')
-    novaSenha.select()
-    document.execCommand('copy')
+    navigator.clipboard.writeText(novaSenha)
+        .then(() => {
+            alert('Senha copiada com sucesso')
+        })
+        .catch(() => {
+            alert('Falha ao copiar a senha')
+        })
 }
