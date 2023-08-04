@@ -8,17 +8,17 @@
     <title>Document</title>
 </head>
 <body>
-    <img class="logo" src="/imagens/logo.png" alt="gerador de senha logo">
-        <main class="container-input">
-            <div>Tamanho <span id="valor"></span> caracteres</div>
-            <input id="slider" class="slider" type="range" min="8" max="24" value="12">
-            <button id="button" onclick="generatePassword()">Gerar Senha</button>
-        </main>
-        <div class="container-password hide">
-            <div id="tittle">Sua senha gerada foi:</div>
-            <div id="password" onclick="copy()"></div>
-            <div id="tooltip">Clique na senha para copiar</div>
-        </div>
+    <img class="logo" src="imagens/logo.png" alt="gerador de senha logo">
+    <main class="container-input">
+        <div>Tamanho <span id="valor"></span> caracteres</div>
+        <input id="slider" class="slider" type="range" min="8" max="24" value="12">
+        <button id="button" onclick="generatePassword()">Gerar Senha</button>
+    </main>
+    <div class="container-password hide">
+        <div id="tittle">Sua senha gerada foi:</div>
+        <div id="password" onclick="copy()"></div>
+        <div id="tooltip">Clique na senha para copiar</div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

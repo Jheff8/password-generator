@@ -14,7 +14,8 @@ body{
     flex-direction: column;
 }
 .logo{
-    max-width: 620px;
+    width: 620px;
+    max-width: 95vw;
     margin-bottom: 25px;
 }
 span{
@@ -28,13 +29,16 @@ div{
 main.container-input{
     flex-direction: column;
     width: 500px;
+    max-width: 90vw;
 }
 .slider{
     -webkit-appearance: none;
     border-radius: 5px;
     background-color: rgb(180, 179, 179);
     width: 500px;
+    max-width: 90vw;
     padding: 3px;
+    margin: 0 auto;
     margin-bottom: 10px;
 }
 #button{
@@ -43,6 +47,7 @@ main.container-input{
     display: block;
     margin: auto;
     width: 500px;
+    max-width: 90vw;
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
@@ -53,16 +58,19 @@ main.container-input{
 }
 .container-password{
     width: 500px;
+    max-width: 90vw;
+    margin: 0 auto;
     margin-top: 20px;
 }
 #tittle{
     margin-bottom: 5px;
-    
+
 }
 #password{
     padding: 10px;
     background-color: rgba(0, 0, 0, .5);
     width: 500px;
+    max-width: 90vw;
     text-align: center;
     border-radius: 5px;
     margin: auto;
@@ -77,6 +85,7 @@ main.container-input{
     margin: auto;
     padding: 5px 0px;
     width: 408px;
+    max-width: 70vw;
     background-color: rgba(0, 0, 0, .4);
     border-radius: 5px;
     margin-top: 10px;
